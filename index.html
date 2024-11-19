@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glass-container">
+        <div class="login-box">
+            <style>
+                .blink {
+                  animation: blink-animation 5s steps(5, start) infinite;
+                  -webkit-animation: blink-animation 2s steps(2, start) infinite;
+                }
+                @keyframes blink-animation {
+                  to {
+                    visibility: hidden;
+                  }
+                }
+                @-webkit-keyframes blink-animation {
+                  to {
+                    visibility: hidden;
+                  }
+                }
+              </style>
+              <span class="blink"<h1><bold><center>Welcome My Page <br>L O G I N </center></center></center></h1></bold></span>
+            <form action="a" method="post">
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+
+            <div class="options">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember</label> 
+                <a href="#">Please Mark checkbox</a>
+            </div>
+            <button type="submit">Login</button>
+            <p><center>Don't you Have A ID Please</center> <a href="#"  id="register"><center>REGISTER</center></a></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>

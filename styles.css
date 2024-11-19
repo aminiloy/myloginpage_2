@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+body{
+    backdrop-filter: brightness(30%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Deadpool.jpg');
+    background-size: cover;
+
+}
+.glass-container{
+    backdrop-filter: brightness(30%);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 6px;
+}
+input{
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    border: black;
+    font-size: 12px;
+}
+input-placeholder{
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+.options{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+}
+.options input{
+    margin-right: 5px;
+    margin-top: 0px;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+}
+button{  
+    background: black;
+    height: 30px;
+    width: 300px;
+    line-height: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white; 
+}
+button:hover {
+    background-color: red;
+}
